@@ -32,8 +32,23 @@
     "watchify": "^2.6.0"
   },
   "dependencies": {
+    "body-parser": "^1.12.2",
+    "contour-fetcher": "0.0.1",
     "express": "^4.12.3",
+    "geojson": "^0.2.0",
+    "geojson-utils": "^1.1.0",
     "jsnox": "^1.0.0",
-    "react": "^0.13.1"
+    "leaflet": "^0.7.3",
+    "leaflet-control-geocoder": "^1.1.0",
+    "leaflet-routing-machine": "^2.3.0",
+    "levelup": "^0.19.0",
+    "memdown": "^1.0.0",
+    "nee": "^1.1.0",
+    "node-fetch": "^1.0.6",
+    "react": "^0.13.1",
+    "robust-point-in-polygon": "^1.0.3",
+    "robust-segment-intersect": "^1.0.1",
+    "sse": "0.0.6",
+    "whatwg-fetch": "^0.7.0"
   }
 }

@@ -8,7 +8,7 @@ tasks.forEach(function (name) {
 })
 
 gulp.task('watch', function () {
-  gulp.watch(['./index.js', './src/**/*.js', './gulp/**/*.js', './gulpfile.js'], ['lint'])
+  gulp.watch(['./index.js', './src/**/*.js', './app/**/*.js', './gulp/**/*.js', './gulpfile.js'], ['lint'])
   gulp.watch('./src/css/**/*.scss', ['style'])
   gulp.watch('./src/jade/**/*.jade', ['html'])
 })
