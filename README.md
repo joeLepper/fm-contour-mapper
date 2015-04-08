@@ -1,13 +1,14 @@
-Base project
-============
+The Radio is in the Hands
+=========================
+Of such a lot of fools
+Trying to anesthetize the way that you feel.
 
-It's been a while since I've maintained one of these.
+Use
+---
+I'm trying to use gulp to run everything.
 
-Using:
-- React
-- jsnox
-- gulp
-- jade
-- babeljs for es6
-- JS standard style
-- sass
+So after a clone:
+`npm i`
+`gulp`
+
+Gulp will watch, build bundles and live reload your browser app. It's currently pretty stupid about the server files. Apologies future people.
